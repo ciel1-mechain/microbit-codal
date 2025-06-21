@@ -1,3 +1,5 @@
+![micro:bit](https://img.shields.io/badge/micro:bit-C++-00599C?logo=micro:bit&logoColor=white)
+
 # Programmer la carte *Micro:bit* en C (C++) sous Linux
 
 ## Installation
