@@ -13,26 +13,7 @@ sudo apt install gcc git cmake gcc-arm-none-eabi binutils-arm-none-eabi
 2. Pour Fedora :
 
 ```bash
-# Mettre à jour la liste des paquets
-sudo dnf update -y
-
-# Compiler pour ARM
-sudo dnf install -y arm-none-eabi-gcc-cs arm-none-eabi-binutils-cs arm-none-eabi-newlib
-
-# (Optionnel) Support C++
-sudo dnf install -y arm-none-eabi-gcc-cs-c++
-
-# Outils de build
-sudo dnf install -y cmake ninja-build
-
-# Python 3 et pip
-sudo dnf install -y python3 python3-pip
-
-# git pour récupérer les sources
-sudo dnf install -y git
-
-# (Optionnel) gdb pour ARM
-sudo dnf install -y arm-none-eabi-gdb
+sudo dnf install -y arm-none-eabi-gcc-cs arm-none-eabi-binutils-cs arm-none-eabi-newlib arm-none-eabi-gcc-cs-c++ cmake ninja-build
 ```
 
 3. Lisez la documentation puis téléchargez le fichier *zip* sur <https://github.com/lancaster-university/microbit-v2-samples>.
